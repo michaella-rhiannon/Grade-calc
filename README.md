@@ -28,23 +28,26 @@ The program should calculate the average of 8 test scores and display the corres
 
 ---
 
-### Code Breakdown
-calc_average() Function
-Prompts the user to enter eight scores, calculates the sum of these scores, and returns the integer average. This function gathers all scores in a single line using a loop within a summation.
+### 📋 Program Overview
+This program allows users to input eight test scores, calculates the average, and then displays a corresponding letter grade based on that average.
 
-determine_grade(score) Function
-Accepts the average score as input and returns a letter grade. The function uses a series of conditional checks to assign letter grades:
+---
 
-A for scores 90 and above
-B for scores 80-89
-C for scores 70-79
-D for scores 60-69
-F for scores below 60
-main() Function
-Calls calc_average() to get the average score, passes that average to determine_grade(), and prints the final letter grade to the user.
+### 📝 Code Breakdown
 
-__name__ Check
-Ensures that the program runs only if executed directly, not when imported as a module.
+- **`calc_average()` Function** 🧮  
+  Prompts the user to enter eight scores, calculates the sum of these scores, and returns the integer average. This function gathers all scores in a single line using a loop within a summation.
 
+- **`determine_grade(score)` Function** 🎓  
+  Accepts the average score as input and returns a letter grade. The function uses a series of conditional checks to assign letter grades:
+    - **A** 🅰️ for scores 90 and above
+    - **B** 🅱️ for scores 80-89
+    - **C** 🟩 for scores 70-79
+    - **D** 🟨 for scores 60-69
+    - **F** 🟥 for scores below 60
 
-   
+- **`main()` Function** ⚙️  
+  Calls `calc_average()` to get the average score, passes that average to `determine_grade()`, and prints the final letter grade to the user.
+
+- **`__name__` Check** ✅  
+  Ensures that the program runs only if executed directly, not when imported as a module. 
