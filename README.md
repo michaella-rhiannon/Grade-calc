@@ -28,11 +28,6 @@ The program should calculate the average of 8 test scores and display the corres
 
 ---
 
-### 📋 Program Overview
-This program allows users to input eight test scores, calculates the average, and then displays a corresponding letter grade based on that average.
-
----
-
 ### 📝 Code Breakdown
 
 - **`calc_average()` Function** 🧮  
